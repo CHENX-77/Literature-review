@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link href="./CSS/register.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>论文查重注册系统</title>
+</head>
+
+<body>
+  <header>
+    <div id="gap"></div>
+    <h1>SZTU</h1>
+    <h2>欢迎新用户</h2>
+  </header>
+  <section>
+    <form>
+      <div class="register_box">
+        <div id="gap_2"></div>
+        <!-- 姓名 -->
+        <div class="user">
+          <div class="user_name">
+            <label class="iconfont" id="U_N" for="Username"><span>
+              &#xe7f7;
+            </span></label>
+            <input type="text" name="Username" id="Username" class="user_font" placeholder="请输入您的姓名" required>
+          </div>
+        </div>
+        <!-- 邮箱 -->
+        <div class="user">
+          <div class="user_address">
+            <label class="iconfont" id="U_A" for="Username"><span>&#xe62e;</span></label>
+            <input type="email" name="Username" id="Username" class="user_font" placeholder="请输入您的邮箱" required>
+          </div>
+        </div>
+
+        <!-- 学号 -->
+        <div class="user">
+          <div class="user_ID">
+            <label class="iconfont" id="U_I" for="Username"><span>&#xe6c0;</span></label>
+            <input type="text" name="Username" id="Username" class="user_font" placeholder="请输入您的学号" required>
+          </div>
+        </div>
+
+        <!-- 密码 -->
+        <div class="user">
+          <label id="U_P" class="iconfont" for="Password" id="password_icon"><span>&#xe626;
+          </span></label>
+          <div class="user_password">
+            <input type="password" name="Password" id="Password" class="user_font" placeholder="请输入您的密码" required
+              pattern="[\dA-Za-z]{6,16}">
+          </div>
+        </div>
+
+        <!-- 确认密码 -->
+        <div class="user">
+          <label for="Password" class="iconfont" id="password_icon"><span>&#xe626;
+          </span></label>
+          <div class="user_password">
+            <input type="password" name="Password" id="Password" class="user_font" placeholder="请再次输入您的密码" required
+              pattern="[\dA-Za-z]{6,16}">
+          </div>
+        </div>
+        <!-- 按钮 -->
+        <div id="reg_button">
+          <span class="register_button"><input type="submit" class="button" value="提&nbsp&nbsp&nbsp交">
+          </span>
+          <a href="./enter.html"><span>
+              <span class="register_button"><input type="button" class="button" value="登&nbsp&nbsp&nbsp录">
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </form>
+
+  </section>
+  <footer>
+
+  </footer>
+</body>
+
+
+</html>

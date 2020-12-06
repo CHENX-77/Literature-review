@@ -1,0 +1,129 @@
+header h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+#gap {
+  height: 120px;
+}
+
+#gap_2 {
+  height: 30px;
+}
+
+.enter_box {
+  height: 222px;
+  width: 450px;
+  border: 1px solid #80e5ff;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.user {
+  border: 1px solid #bdbdbd;
+  height: 38px;
+  width: 304px;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user {
+  border-radius: 10px;
+}
+
+.user_font {
+  line-height: 18px;
+  height: 18px;
+  border: 0;
+  padding: 10px 0 10px 50px;
+  width: 254px;
+  float: none;
+  overflow: hidden;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9.5px;
+}
+
+input::-webkit-input-placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+
+label {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-right: 1px solid #bdbdbd;
+  background-position-x: 0 -48px;
+  border-radius: 9.5px;
+  background-color: #e1dfe1;
+  text-align: center;
+
+}
+
+.user label span {
+  font-size: 30px;
+}
+
+#password_icon {
+  background-position: -48px -48px;
+}
+
+input {
+  outline: none;
+}
+
+.forget .forget_txt {
+  font-size: small;
+  right: 0;
+  margin-left: 360px;
+  top: 0;
+}
+
+#password {
+  padding-top: 10px;
+}
+
+#enter_button {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.button {
+  height: 30px;
+  line-height: 30px;
+  width: 110px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+div {
+  display: block;
+}
+
+body {
+  background: url('../IMG/background.jpg');
+  background-size: cover;
+}

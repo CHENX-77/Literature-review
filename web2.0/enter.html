@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/enter.css">
+  <script type="text/javascript" src="JS/enter.js"></script>
+  <title>论文查重登录系统</title>
+</head>
+
+<body>
+  <header>
+    <div id="gap"></div>
+    <h1>SZTU</h1>
+  </header>
+  <section>
+    <form>
+      <div class="enter_box">
+        <div id="gap_2"></div>
+        <div class="user">
+          <div class="user_name">
+            <label for="Username" class="iconfont"><span>&#xe6c0;</span></label>
+            <input type="text" name="Username" id="Username" class="user_font" placeholder="请输入您的学号" required>
+
+          </div>
+        </div>
+        <div class="user">
+          <label for="Password" class="iconfont" id="password_icon"><span>&#xe626;</span></label>
+          <div class="user_password">
+            <input type="password" name="Password" id="Password" class="user_font" placeholder="请输入您的密码" required
+              pattern="[\dA-Za-z]{6,16}">
+          </div>
+        </div>
+        <div id="enter_button">
+          <span class="enter_button"><input type="submit" class="button" value="登  录" width="100%"></span>
+          <a href="./register.html"><span class="enter_button"><input type="button" class="button" value="注  册"
+                width="100%"></span></a>
+        </div>
+        <div class="gap_3">
+          <div class="forget">
+            <span class="forget_txt"><a href="register.html" target="_blank">忘记密码</a></span>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </section>
+  <footer>
+ 
+  </footer>
+</body>
+
+</html>
